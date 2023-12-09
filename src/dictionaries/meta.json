@@ -1,0 +1,75 @@
+{
+  "en": {
+    "home": {
+      "title": "Namaagahi Advertising Agency",
+      "description": "Namaagahi website"
+    },
+    "about": {
+      "title": "About Us",
+      "description": "Namaagahi website - About us page"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "description": "Namaagahi website - Contact us page"
+    },
+    "jobs": {
+      "title": "Jobs",
+      "description": "Namaagahi website - Jobs page"
+    },
+    "namava": {
+      "title": "Namava",
+      "description": "Namaagahi website - Namava page"
+    },
+    "creativity": {
+      "title": "Creativity",
+      "description": "Namaagahi website - Creativity page"
+    },
+    "media": {
+      "title": "Media",
+      "description": "Namaagahi website - Media page"
+    },
+    "digital": {
+      "title": "Digital Marketing",
+      "description": "Namaagahi website - Digital Marketing page"
+    }
+  },
+
+  "fa": {
+      "dashboard": {
+        "title": "ورود به داشبورد مدیریت",
+        "description": "صفحه ورود داشبورد مدیریتی وب سایت نماآگهی"
+      },
+      "home": {
+        "title": "آژانس تبلیغاتی نماآگهی",
+        "description": "صفحه اصلی وب سایت آژانس تبلیغاتی نماآگهی"
+      },
+      "about": {
+        "title": "درباره ما",
+        "description": "صفحه درباره ما وب سایت نماآگهی"
+      },
+      "contact": {
+        "title": "ارتباط با ما",
+        "description": "صفحه ارتباط با ما وب سایت نماآگهی"
+      },
+      "jobs": {
+        "title": "همکاری با ما",
+        "description": "صفحه همکاری با ما وب سایت نماآگهی"
+      },
+      "namava": {
+        "title": "نماوا",
+        "description": "صفحه نماوا وب سایت نماآگهی"
+      },
+      "creativity": {
+        "title": "خلاقیت",
+        "description": "صفحه خلاقیت وب سایت نماآگهی"
+      },
+      "media": {
+        "title": "رسانه",
+        "description": "صفحه رسانه وب سایت نماآگهی"
+      },
+      "digital": {
+        "title": "دیجیتال مارکتینگ",
+        "description": "صفحه دیجیتال مارکتینگ وب سایت نماآگهی"
+      }
+  }
+}

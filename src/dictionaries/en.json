@@ -1,0 +1,159 @@
+{
+  "page": {
+    "home": {
+      "title": "Welcome to NextJs i18n",
+      "description": "Internationalization in NextJs 13 App router",
+      "callActions" :{
+        "callActionCards": [
+          {"id": 1, "iconName": "creativity", "color": "#4a4b69", "size": "50", "title": "Creativity", "src": "/creativity" },
+          {"id": 2, "iconName": "digital", "color": "#9f4d68", "size": "50", "title": "Digital Marketing", "src": "/digital-marketing" },
+          {"id": 3, "iconName": "media", "color": "#faa75c", "size": "50", "title": "Media", "src": "/media" },
+          {"id": 4, "iconName": "namava", "color": "#f9ca60", "size": "50", "title": "Namava", "src": "/namava" }
+        ]
+      }
+    },
+    "about": {
+      "title": "About Us",
+      "description": "This is the about page",
+      "about": "Nema Advertising was founded in 2009 when it entered the market for media buying and planning. In 2012, it transformed into one of the most powerful media owners, and after three years, in 2015, it changed its nature to a full-service advertising agency.\n Over the course of more than 13 years of operation, Nema Advertising has always strived to offer the best solutions in all areas of the advertising industry to brand owners, relying on experienced teams.\n In 2018, Nema Advertising and an international advertising network called FCB ARTGROUP began their joint investment.\n Currently, the advertising agency 'Nema Advertising' is the exclusive executor of advertising in Namaava and the exclusive media owner for advertising on Tehran city buses, as well as the advertising executor for the Tehran Metro. In addition, Nema Advertising has the full capability to design and execute 360-degree advertising campaigns, create and produce TV commercials, communication strategies, and digital service solutions.",
+      "subtitle": "Our Services"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "description": "This is the contact page",
+      "address": "Address: 31 Gol Azin Boulevard, Jordan, Tehran, Iran.",
+      "phone": "+9802196610",
+      "it-email": "it@namaagahi.com",
+      "it-email-title": "Section Email: ",
+      "info-email": "info@namaagahi.com",
+      "info-email-title": "Public Relations: "
+    },
+    "jobs": {
+      "title": "Join Us",
+      "description": "This is the contact us page",
+      "controls": [
+        {"id": 1, "control": "input", "type": "text", "label": "First Name", "name": "firstName", "col": 1},
+        {"id": 2, "control": "input", "type": "text", "label": "Last Name", "name": "lastName", "col": 1},
+        {"id": 3, "control": "input", "type": "number", "label": "Id Number", "name": "idCode", "col": 1},
+        {"id": 4, "control": "input", "type": "number", "label": "Phone Number", "name": "phone", "col": 1},
+        {"id": 5, "control": "input", "type": "email", "label": "Email", "name": "email", "col": 2},
+        {"id": 6, "control": "input", "type": "text", "label": "How you know us?", "name": "introMethod", "col": 2},
+        {"id": 7, "control": "textarea", "type": "textarea", "label": "Description", "name": "description", "col": 2},
+        {"id": 8, "control": "radio", "type": "radio", "label": "Field of expertise", "name": "field", "col": 2}
+      ],
+      "radioOptions": [
+        {"id": 1, "value": "Media"},
+        {"id": 2, "value": "Creativity"},
+        {"id": 3, "value": "Digital"},
+        {"id": 4, "value": "Marketing"},
+        {"id": 5, "value": "Financial"}
+      ],
+      "errorMessages": {
+        "name": "Enter Name",
+        "lastName": "Enter Last Name",
+        "idCode": "Enter ID code",
+        "phone": "Enter your phone",
+        "email": "Enter your email",
+        "field": "Chooe the field"
+      },
+      "submitText": "Send Request"
+    },
+    "media": {
+      "title": "Media Services",
+      "description": "This is the media services page",
+      "callActions" :{
+        "callActionCards": [
+          {"id": 1, "iconName": "billboard", "color": "#fa9b45", "size": "50", "title": "Billboard", "src": "#billboard" },
+          {"id": 2, "iconName": "bus", "color": "#9f4d68", "size": "50", "title": "Bus", "src": "#bus" },
+          {"id": 3, "iconName": "subway", "color": "#fabd34", "size": "50", "title": "Subway", "src": "#subway" }
+        ]
+      },
+      "content": [
+        {"id": 1, "tag": "#billboard", "title": "Billboard", "desc": "Environmental advertising, which generally includes all types of urban and interurban billboards, is cost-effective compared to other influential media in reaching a large population. Considering the significant amount of time people spend in urban areas, especially with traffic congestion in most hours in major cities, environmental advertising is well-received. Currently, billboards come in various sizes and capabilities across the city. The key to the success of this type of advertising lies in selecting suitable billboards in strategic locations. Factors such as the community's traffic routes, peak traffic hours, billboard size, screening duration, etc., must be taken into account. NamaAd Advertising Agency, with its long-standing experience and specialized presence in environmental advertising, can be a reliable consultant for you to achieve the best results for your brand with minimal costs."},
+        {"id": 2, "tag": "#bus", "title": "Bus", "desc": "Advertising on the body of buses is one of the effective and practical methods that, considering the lower cost compared to other environmental media, can be a suitable option for low-budget advertising or as a impactful component of a multi-media advertising campaign. Like metro systems, buses also have the characteristic that users come into direct and repeated contact with them, becoming a part of their daily lives.\nGiven the high number of bus routes and their well-defined paths, it is possible to deliver the brand message to the target audience in specific areas with the highest efficiency through these mobile billboards. One of the features of bus advertising is that the audience doesn't need to be in a specific location to see it. Instead, buses expose themselves to viewers along their routes through the city, increasing visibility. Due to the repetitive nature of bus routes, an advertisement passes through a specific route multiple times in a day and several days in a month, leading to increased visibility.\nFurthermore, due to the close proximity and the distinctive appearance and coordinates of this mode of transportation, there is the possibility to implement unique and different ideas compared to other media."},
+        {"id": 3, "tag": "#subway", "title": "Subway", "desc": "Few are those who have lived in Tehran or have had their work tied to this metropolis and have not experienced using the metro. Considering Tehran's traffic and the well-organized and punctual metro service, the use of this means of transportation is not limited to specific demographics. In metro stations and train cars, one can observe citizens of all kinds choosing the underground commute.\nFor this reason, this transportation system, the largest in the Middle East with 250 kilometers of rail tunnels, 110 stations, and nearly 200 trains playing a role in the daily movement of approximately 30% of Tehran and its suburbs' passengers, can be a effective and impactful medium for any brand.\nIn recent years, with the integration of metro lines with key centers and terminals such as Imam Khomeini Airport and Mehrabad Airport, a higher percentage of people from various social backgrounds use the metro. Additionally, the connection of Tehran metro lines to the Karaj metropolitan area brings a flood of population to the stations and train cars.\nOn the other hand, diversity in the media available in the metro, such as train exteriors, large displays inside stations, lightboxes, and labels on escalators, displays inside train cars, and plaques, has made it possible for companies and brands to remain open to advertising and creativity. This allows a message to be exposed to the audience through various channels. The enclosed spaces of the metro also create the opportunity for the execution of unique and creative designs."}
+      ]
+    }
+  },
+
+  "component": {
+    "header": {
+      "headerNavLinks": [
+        {
+          "id": 1,
+          "title": "Home",
+          "src": "/"
+        },
+        {
+          "id": 2,
+          "title": "About Us",
+          "src": "/about"
+        },
+        {
+          "id": 3,
+          "title": "Contact Us",
+          "src": "/contact"
+        },
+        {
+          "id": 4,
+          "title": "Jobs",
+          "src": "/jobs"
+        },
+        {
+          "id": 5,
+          "title": "Departments",
+          "src": "#",
+          "sublinks": [
+            {
+              "id": 51,
+              "title": "Namava",
+              "src": "/namava"
+            },
+            {
+              "id": 52,
+              "title": "Creativity",
+              "src": "/creativity"
+            },
+            {
+              "id": 53,
+              "title": "Media",
+              "src": "/media"
+            },
+            {
+              "id": 54,
+              "title": "Digital Marketing",
+              "src": "/digital-marketing"
+            }
+          ]
+        }
+      ]
+    },
+
+
+    "notice" :{
+      "title": "Brief History of Nama Agahi",
+      "description": "Nema Advertising was founded in 2009 when it entered the market for media buying and planning. In 2012, it transformed into one of the most powerful media owners, and after three years, in 2015, it changed its nature to a full-service advertising agency.\n Over the course of more than 13 years of operation, Nema Advertising has always strived to offer the best solutions in all areas of the advertising industry to brand owners, relying on experienced teams.\n In 2018, Nema Advertising and an international advertising network called FCB ARTGROUP began their joint investment.\n Currently, the advertising agency 'Nema Advertising' is the exclusive executor of advertising in Namaava and the exclusive media owner for advertising on Tehran city buses, as well as the advertising executor for the Tehran Metro. In addition, Nema Advertising has the full capability to design and execute 360-degree advertising campaigns, create and produce TV commercials, communication strategies, and digital service solutions."
+    },
+
+    "timeline" :{
+      "timelineElements": [
+        {"id": 1, "title": ["Establishment of Nemaaghi Agency"], "color": "#494B69", "time": "2009", "direction": "top"},
+        {"id": 2, "title": ["Media Ownership"], "color": "#695D7A", "time": "2012", "direction": "bottom"},
+        {"id": 3, "title": ["Conversion to full service agency"], "color": "#9F5B72", "time": "2015", "direction": "top"},
+        {"id": 4, "title": ["Joint venture with FCB Art Group agency" , "Establishment of Tehran FCB Art Group " ], "color": "#D8707C", "time": "2018", "direction": "bottom"},
+        {"id": 5, "title": ["Continuing strategic cooperation with FCB ART"], "color": "#FDA85A", "time": "2020", "direction": "top"},
+        {"id": 6, "title": ["The exclusive promoter of Namava advertising", "The owner of the exclusive advertising media for buses in Tehran", "Tehran Metro advertising executive"], "color": "#FDCD5A", "time": "2021", "direction": "bottom"}
+      ]
+    },
+
+    "footer": {
+      "footerNavLinks": [
+        { "id": 1, "title": "Home", "src": "/" },
+        { "id": 2, "title": "About Us", "src": "/about" },
+        { "id": 3, "title": "Contact Us", "src": "/contact" },
+        { "id": 4, "title": "Jobs", "src": "/jobs" }
+      ],
+      "copyright": "All material and intellectual rights belongs to Namaaghi Mohit Company"
+    }
+  }
+}
