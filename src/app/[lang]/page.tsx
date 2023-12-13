@@ -19,7 +19,7 @@ export default async function Home(props: LanguageProp) {
 
   return (
     <div className='absolute top-0 right-0 w-full h-screen'>
-      <Hero lang={lang} />
+      <Hero lang={lang} images={page.home.heroImage} />
       <div className="relative">
         <CallToAction lang={lang} callActionsCards={page.home.callActions.callActionCards} />
         <Notice lang={lang}/>

@@ -16,9 +16,9 @@ export default async function Contact(props: LanguageProp) {
   const { page } = await getDictionary(lang)
 
   return (
-    <section className='py-24 '>
+    <section className='pb-24 pt-48'>
       <div className='container h-[50vh] flex flex-col items-center justify-between gap-9'>
-        <p className='font-bold text-5xl'>
+        <p className='font-bold text-3xl md:text-5xl'>
           {page.contact.title}
         </p>
         <Container>
@@ -27,13 +27,13 @@ export default async function Contact(props: LanguageProp) {
               <p className='text-center text-2xl xl:text-4xl font-bold leading-10'>
                 {page.contact.address}
               </p>
-              <div className="flex items-center justify-center gap-x-2 text-6xl font-bold">
+              <div className="flex items-center justify-center gap-x-2 text-4xl md:text-6xl font-bold">
                 <FaPhoneSquareAlt  />
                 <p>
                   {page.contact.phone}
                 </p>
               </div>
-              <div className="flex flex-col">
+              <div className="flex flex-col text-sm gap-2 md:text-base">
                 <p>
                   <span>
                     {page.contact['it-email-title']}

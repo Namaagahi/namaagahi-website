@@ -10,14 +10,22 @@
           {"id": 3, "iconName": "media", "color": "#faa75c", "size": "50", "title": "رسانه", "src": "/media" },
           {"id": 4, "iconName": "namava", "color": "#f9ca60", "size": "50", "title": "نماوا", "src": "/namava" }
         ]
-      }
+      },
+      "heroImage": [
+        {"id": 1, "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450778/website-assets/images/home/tqsvts0cah3abbh47iqs.jpg"},
+        {"id": 2, "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450777/website-assets/images/home/xbpql69sdjxuthfsprnq.jpg"},
+        {"id": 3, "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450777/website-assets/images/home/og80pqldje64fb9gwdtl.jpg"},
+        {"id": 4, "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450776/website-assets/images/home/u1hbj3iosbmsbxqokiqr.jpg"}
+      ]
     },
+
     "about": {
       "title": "درباره ما",
       "description": "این صفحه درباره ما است",
       "about": " نما آگهی در سال 1388 با ورود به بازار خرید و برنامه ریزی رسانه تاسیس و در سال 1391 به یکی از قدرتمندترین دارندگان رسانه تبدیل شد و پس از 3 سال در 1394 به یک آژانس تبلیغاتی با کلیه خدمات، تغییر ماهیت داد. \nدر طول بیش از 13 سال فعالیت، نماآگهی با تکیه بر همکاری تیم‌های مجرب، همواره تلاش کرده است تا بهترین راهکارها را در تمام عرصه های صنعت تبلیغات به صاحبان برند پیشنهاد دهد.\n در سال 1397 نما آگهی و یک شبکه ی بین المللی تبلیغاتی به نام FCB ARTGROUP ، سرمایه گذاری مشترکشان را آغاز کردند.\nدر حال حاضر، آژانس تبلیغاتی “نما آگهی” مجری انحصاری تبلیغات در نماوا،صاحب رسانه انحصاری تبلیغات بدنه اتوبوسهای شهر تهران و همچنین مجری تبلیغات مترو تهران ‌میباشد .علاوه بر این نمااگهی توانایی کامل برای طراحی و اجرای کمپین های تبلیغاتی 360 درجه، خلق و تولید تیزر و آگهی های تلویزیونی، استراتژی ارتباطات و راهکارهای خدمات دیجیتال را داراست.",
       "subtitle": "خدمات ما"
     },
+
     "contact": {
       "title": "ارتباط با ما",
       "description": "این صفحه ارتباط با ما است",
@@ -28,6 +36,7 @@
       "info-email": "info@namaagahi.com",
       "info-email-title": "روابط عمومی: "
     },
+
     "jobs": {
       "title": "همکاری با ما",
       "description": "این صفحه همکاری با ما است.",
@@ -58,6 +67,7 @@
       },
       "submitText": "ارسال درخواست"
     },
+
     "media": {
       "title": "خدمات رسانه ها",
       "description": "این صفحه خدمات رسانه ها است.",
@@ -72,6 +82,67 @@
         {"id": 1, "tag": "#billboard", "title": "بیلبورد", "desc": "تبلیغات محیطی که به طور کلی شامل تمامی انواع تابلوهای شهری و بین شهری می شود، که با توجه به هزینه منطقی نسبت به پوشش جمعیتی از رسانه های بسیار تاثیرگذار هستند. با توجه به زمان زیادی که مردم در سطح شهر می گذرانند و به ویژه با وجود ترافیک در اکثر ساعت ها در کلان شهرها، تبلیغات محیطی به خوبی دیده می شوند. در حال حاضر تابلوها در سایزها و قابلیت های متنوع در سطح شهر وجود دارند، انتخاب تابلوهای مناسب در نقاط مناسب، کلید موفقیت این نوع تبلیغات است که در این زمینه می باید مواردی از قبیل مسیرهای رفت و آمد جامعه ی هدف، ساعت های ترافیک، اندازه تابلو، مدت زمان اکران و …در نظر گرفته شود. آژانس تبلیغاتی نماآگهی با سابقه ی طولانی و حضور تخصصی در زمینه تبلیغات محیطی، می تواند مشاور قابل اطمینانی برای شما باشد تا بهترین نتیجه با کمترین هزینه برای برند شما حاصل شود."},
         {"id": 2, "tag": "#bus", "title": "اتوبوس", "desc": "تبلیغات روی بدنه اتوبوس از روش های موثر و کاربردی است که با توجه به تعرفه ی پایین تر نسبت به سایر رسانه های محیطی می تواند گزینه ی مناسبی برای تبلیغات با بودجه پایین و یا بخش اثرگذاری از یک کمپین تبلیغاتی چند رسانه ای باشد. اتوبوس نیز مانند مترو این خاصیت را دارد که استفاده کنندگان به طور مستقیم و مکرر با آن در تماس هستند و بخشی از زندگی روزمره آنهاست.\n با توجه به تعداد بالای خطوط اتوبوسرانی و مشخص بودن مسیرها، این امکان وجود دارد که پیام برند با بیشترین بازدهی از طریق این بیلبوردهای متحرک به مخاطب مورد نظر، در مناطق مورد نظر رسانده شود. یکی از ویژگی های تبلیغات اتوبوسی این است که برای دیده شدن نیاز نیست مخاطب در مکانی خاص با آن مواجه شود، بلکه این اتوبوس است که با عبور و مرور در سطح شهر، خود را در معرض دید مخاطبانی که در مسیر حضور دارند قرار می دهد و به این ترتیب بیشتر دیده خواهد شد. ضمن اینکه به دلیل تکراری بودن مسیر اتوبوس ها،‌ یک آگهی در طول یک روز چندین بار و در یک ماه چندین روز از یک مسیر مشخص عبور می کند که این تکرار موجب بیشتر دیده شدن آن خواهد شد. همچنین به دلیل نزدیک بودن فاصله و همین طور ظاهر و مختصات این وسیله نقلیه، امکان اجرای ایده های خاص و متفاوت از سایر رسانه ها وجود دارد."},
         {"id": 3, "tag": "#subway", "title": "مترو", "desc":"کمتر کسی است که در تهران زندگی کرده باشد یا کارش به این کلانشهر افتاده باشد و استفاده از مترو را تجربه نکرده باشد. با توجه به ترافیک تهران و سرویس دهی مناسب مترو با زمان بندی و نظم دقیق،‌ استفاده از این وسیله به اقشار خاصی محدود نمی شود و در ایستگاه ها و واگن های مترو می توان تمامی انواع شهروندان را مشاهده کرد رفت و آمد از زیر زمین را ترجیح داده اند.\n به همین دلیل، این سیستم حمل و نقل که بزرگترین در خاورمیانه است،‌ با ۲۵۰ کیلومتر تونل ریلی، ۱۱۰ ایستگاه و نزدیک به ۲۰۰ قطار که در جابجایی روزانه تقریبا ۳۰٪ از مسافران تهران و حومه نقش دارد، می تواند رسانه ای کارساز و اثرگذار برای هر برندی باشد.\nدر سال های اخیر با وصل شدن خطوط مترو به مراکز و پایانه های مهمی مانند فرودگاه امام خمینی، فرودگاه مهرآباد، درصد بیشتری از مردم از سطوح اجتماعی مختلف از مترو استفاده می کنند. همچنین اتصال خطوط متروی تهران به کلانشهر کرج، سیلی از جمعیت را به ایستگاه ها و واگن ها سرازیر می کند.از سوی دیگر، تنوع در رسانه های موجود در مترو همچون بدنه قطار، تابلوهای بزرگ داخل ایستگاه ها،‌لایت باکس و برچسب های پله برقی ها، تابلوهای داخل واگن ها و کتیبه ها، موجب شده است دست شرکت ها و برندها برای تبلیغات و خلاقیت باز باشد و یک پیام از راه های مختلف در معرض دید مخاطب قرار گیرد. همچنین سرپوشیده بودن فضاهای مترو امکان اجرای طرح های خاص و خلاقانه را ایجاد می کند."}
+      ],
+      "billboardImages": [
+        {"id": 1, "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450787/website-assets/images/media/billboard/igs2vvvfwbjounjof2na.png"},
+        {"id": 2, "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450784/website-assets/images/media/billboard/moiysnzbktq8xnweraok.png"},
+        {"id": 3, "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450782/website-assets/images/media/billboard/cekd82t8zlfy1i5st3jy.png"},
+        {"id": 4, "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450782/website-assets/images/media/billboard/os1xmgfxfs5vy2hju2ov.png"},
+        {"id": 5, "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450782/website-assets/images/media/billboard/eenhslkdenlzkrycouk8.png"}
+      ],
+      "busImages": [
+        {"id": 1, "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450791/website-assets/images/media/bus/gkj8odzqlqetpxd0y5ft.png"},
+        {"id": 2, "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450791/website-assets/images/media/bus/bvxmv4kydv8tryjffj43.png"},
+        {"id": 3, "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450790/website-assets/images/media/bus/iro44eogjpnw4bn5en7o.png"},
+        {"id": 4, "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450789/website-assets/images/media/bus/bib5cvyncgs0pinanfys.png"},
+        {"id": 5, "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450789/website-assets/images/media/bus/crhchj0vslvuahvzedtr.png"},
+        {"id": 6, "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450788/website-assets/images/media/bus/k2bmpyhobtjztgssilco.png"},
+        {"id": 7, "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450787/website-assets/images/media/bus/zyfpuyreniq7qg3xrwed.png"},
+        {"id": 8, "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450787/website-assets/images/media/bus/jak31upeblftrgij6x5m.png"},
+        {"id": 9, "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450786/website-assets/images/media/bus/nkahphxnjtnewdfjbqoh.png"},
+        {"id": 10, "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450784/website-assets/images/media/bus/yt6axfjimwj07ib4wgyc.png"}
+      ],
+      "subwayImages": []
+    },
+
+    "creativity": {
+      "imageFrames": [
+        {"id": 1, "colSpan": 5, "height": 400, "title": "دیپوینت - پرستیژ یاس", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450777/website-assets/images/creative/sozul6fttw0rhi0v8ud8.jpg"},
+        {"id": 2, "colSpan": 2, "height": 400, "title": "دیپوینت - اکسپلور", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450774/website-assets/images/creative/pdweevly9sxsokncslmk.jpg"},
+        {"id": 3, "colSpan": 5, "height": 400, "title": "خوشگوار", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450774/website-assets/images/creative/nlrfyqpcbz6uzorurglq.jpg"},
+        {"id": 4, "colSpan": 3, "height": 400, "title": "دیپوینت - دسنت و تی سون", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450774/website-assets/images/creative/nahlnqg5nn1fdhx2ssou.jpg"},
+        {"id": 5, "colSpan": 9, "height": 400, "title": "دیپوینت - خانواده محصولات", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450774/website-assets/images/creative/iamvealeiohilhiehgxp.jpg"},
+        {"id": 6, "colSpan": 8, "height": 400, "title": "بیمه سامان", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450772/website-assets/images/creative/psildj1pluc2qdevryho.jpg"},
+        {"id": 7, "colSpan": 2, "height": 400, "title": "هی دی", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450772/website-assets/images/creative/cmyfpt0vkgnlegobpaki.jpg"},
+        {"id": 8, "colSpan": 2, "height": 400, "title": "آقای فرش", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450772/website-assets/images/creative/wfnc37ouypvik3abfsuc.jpg"},
+        {"id": 9, "colSpan": 9, "height": 600, "title": "2000", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450772/website-assets/images/creative/qaojhl2oau027gdi4aep.jpg"},
+        {"id": 10, "colSpan": 3, "height": 600, "title": "ویکولو", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450772/website-assets/images/creative/dqnqf4jgg7leo9nvsumg.jpg"},
+        {"id": 11, "colSpan": 2, "height": 500, "title": "دیپوینت - عرض زندگی", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450771/website-assets/images/creative/dra9ku8ehwnjbrjfl5tx.jpg"},
+        {"id": 12, "colSpan": 8, "height": 500, "title": "دامستوس", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450771/website-assets/images/creative/wyzdxfp1ixnincctecwq.jpg"},
+        {"id": 13, "colSpan": 2, "height": 500, "title": "سیف", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450771/website-assets/images/creative/fe7mtfgceebrtbcumiai.jpg"},
+        {"id": 14, "colSpan": 5, "height": 400, "title": "رکسونا", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450771/website-assets/images/creative/cwfasetniiziihjimiid.jpg"},
+        {"id": 15, "colSpan": 2, "height": 400, "title": "آمارانت", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450771/website-assets/images/creative/ylvbdqjoch0e70iqxtmw.jpg"},
+        {"id": 16, "colSpan": 5, "height": 400, "title": "بانک انصار", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450770/website-assets/images/creative/trjankvzim9q4uy03i8u.jpg"},
+        {"id": 17, "colSpan": 3, "height": 400, "title": "آسان پرداخت (آپ)", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450769/website-assets/images/creative/vxtepo64k120wwiwdshw.jpg"},
+        {"id": 18, "colSpan": 9, "height": 400, "title": "بچه های آسمان", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450768/website-assets/images/creative/yujswszkthx9ouec2fjk.jpg"},
+        {"id": 19, "colSpan": 8, "height": 400, "title": "یخچال بنس", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450768/website-assets/images/creative/fghww8ttgzk2bdw5oqxu.jpg"},
+        {"id": 20, "colSpan": 2, "height": 400, "title": "دیپوینت - دستتون بازه", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450768/website-assets/images/creative/dfywgfjeap3djrlsr6sb.jpg"},
+        {"id": 21, "colSpan": 2, "height": 400, "title": "اهدای خون", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450768/website-assets/images/creative/w7bl1xo0jppgcrxl5uha.jpg"},
+        {"id": 22, "colSpan": 9, "height": 400, "title": "دو برد - به بردن عادت کن", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450768/website-assets/images/creative/p6n93yr952726z53yawc.jpg"},
+        {"id": 23, "colSpan": 3, "height": 400, "title": "وان دی", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450767/website-assets/images/creative/fybihmjpnki1hpsukmtc.jpg"},
+        {"id": 24, "colSpan": 2, "height": 400, "title": "بنس - پولاریس", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450767/website-assets/images/creative/xw26hop8wj4vxemgk7qo.jpg"},
+        {"id": 25, "colSpan": 8, "height": 400, "title": "بیمیتو", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450767/website-assets/images/creative/xsouuti39xxo46sj2fyh.png"},
+        {"id": 26, "colSpan": 2, "height": 400, "title": "سمر", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450767/website-assets/images/creative/rontdzvwnpbrwtjx13pc.jpg"},
+        {"id": 27, "colSpan": 5, "height": 400, "title": "تکنولایو", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450766/website-assets/images/creative/z7n8ipw733xcl6jkgpon.png"},
+        {"id": 28, "colSpan": 2, "height": 400, "title": "مزمز - بامزه باش", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450766/website-assets/images/creative/jpdxh1dxybkhyxp9znkh.jpg"},
+        {"id": 29, "colSpan": 5, "height": 400, "title": "دیپوینت - تیزر نوری", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450766/website-assets/images/creative/embrfknycusfhyjivk9q.png"},
+        {"id": 30, "colSpan": 8, "height": 400, "title": "بانک ملت", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450765/website-assets/images/creative/heravz4lg6pharyg2zl3.png"},
+        {"id": 31, "colSpan": 2, "height": 400, "title": "باربیکن", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450764/website-assets/images/creative/dfkirh6vxxmarjploawl.jpg"},
+        {"id": 32, "colSpan": 2, "height": 400, "title": "کلییر", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450763/website-assets/images/creative/mzqfm5szuyiar5k9jkub.jpg"},
+        {"id": 33, "colSpan": 9, "height": 400, "title": "رکاب میده", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450763/website-assets/images/creative/w0aymd5iy4thp0henwm5.jpg"},
+        {"id": 34, "colSpan": 3, "height": 400, "title": "پگاه", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450762/website-assets/images/creative/k5nzb3sqhtzbr5wbhbt9.jpg"},
+        {"id": 35, "colSpan": 2, "height": 400, "title": "دیپوینت - ناک ناک", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450761/website-assets/images/creative/qe2lkw2kwvjbixk2moxc.jpg"},
+        {"id": 36, "colSpan": 5, "height": 400, "title": "بانک پارسیان", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450761/website-assets/images/creative/qhq13vhmy88rxylxpqti.jpg"}
       ]
     }
   },
@@ -81,7 +152,7 @@
       "headerNavLinks": [
         {
           "id": 1,
-          "title": "خانه",
+          "title": "خانه", 
           "src": "/"
         },
         {

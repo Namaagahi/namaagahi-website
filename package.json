@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@formatjs/intl-localematcher": "^0.4.2",
+    "@react-hook/media-query": "^1.1.1",
     "formik": "^2.4.5",
     "framer-motion": "^10.16.4",
     "leaflet-defaulticon-compatibility": "^0.1.2",

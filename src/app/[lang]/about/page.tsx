@@ -12,7 +12,7 @@ export default async function About(props: LanguageProp) {
   const { page } = await getDictionary(lang)
 
   return (
-    <section className='py-24 '>
+    <section className='pb-24 pt-48'>
       <div className='container h-[50vh] flex flex-col gap-9 items-center justify-between'>
         <p className='font-bold text-5xl'>
           {page.about.title}
@@ -24,7 +24,7 @@ export default async function About(props: LanguageProp) {
           <p className='text-center font-bold text-2xl'>
             {page.about.subtitle}
           </p>
-          <CallToAction lang={lang} />
+          <CallToAction lang={lang} callActionsCards={page.home.callActions.callActionCards} />
         </Container>
       </div>
     </section>

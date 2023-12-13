@@ -41,8 +41,8 @@ export default function ImageSlider({ sliderImages }: { sliderImages: SliderImag
           animate="center"
           exit="exit"
           transition={{ x: { type: 'spring', stiffness: 300, damping: 30 }, opacity: { duration: 0.1 } }}
-          className="w-full h-full rounded-2xl bg-center bg-cover  overflow-hidden"
-          style={{ backgroundImage: `url(${sliderImages[currentSlide].url})`, backgroundSize: '50%', backgroundRepeat: 'no-repeat' }}
+          className="w-full h-1/2 md:h-full rounded-2xl bg-center bg-cover  overflow-hidden"
+          style={{ backgroundImage: `url(${sliderImages[currentSlide].url})`, backgroundSize: '70%', backgroundRepeat: 'no-repeat' }}
         ></motion.div>
         <CgChevronDoubleLeftO
           className='cursor-pointer text-2xl md:text-5xl xl:text-7xl hover:text-purple-700 transition-colors'

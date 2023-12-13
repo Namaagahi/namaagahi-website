@@ -4,8 +4,7 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { i18n } from '@/config/i18n.config'
 import Image from 'next/image'
-import fa from '../../public/images/icons/fa.png'
-import en from '../../public/images/icons/en.png'
+import cloudinaryLoader from '../cloudinaryLoader'
 
 export default function LocaleSwitcher(props: MenuIconSize) {
   const { size } = props
@@ -30,17 +29,19 @@ export default function LocaleSwitcher(props: MenuIconSize) {
               <div className="inline-flex items-center">
                 {locale === 'fa' ?
                   <Image
-                    src={fa}
+                    src={'/v1702450777/website-assets/images/icons/n0lcy75mzwryecwlfqs1.png'}
                     width={size}
                     height={size}
                     alt='fa'
+                    loader={cloudinaryLoader}
                   />
                 :
                   <Image
-                    src={en}
+                    src={'/v1702450776/website-assets/images/icons/fd1clu3k96n29hl04tos.png'}
                     width={size}
                     height={size}
                     alt='en'
+                    loader={cloudinaryLoader}
                   />
                 }
               </div>

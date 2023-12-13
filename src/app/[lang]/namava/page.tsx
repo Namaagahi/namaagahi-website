@@ -11,11 +11,6 @@ export default async function Namava(props: LanguageProp) {
   const { page } = await getDictionary(lang)
 
   return (
-    <section className='py-24'>
-      <Video videoSrc="https://www.namaagahi.com/wp-content/uploads/2022/01/avc_Namaagahi-Rubik-Site-Bedune-PackShot-Bedune-Seda.mp4" />
-      <div className='container py-[100vh] bg-red-500'>
-      Media
-      </div>
-    </section>
+    <div>Namava</div>
   )
 }

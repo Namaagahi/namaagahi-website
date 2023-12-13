@@ -2,9 +2,6 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
-import logoTextBlack from '../../../../../public/images/logo/logo-text-black.png'
-import logoTextBlackEn from '../../../../../public/images/logo/logo-text-black-en.png'
-import logo from '../../../../../public/images/logo/logo.svg'
 import LocaleSwitcher from '@/components/LocaleSwitcher'
 import { Locale } from '@/config/i18n.config'
 import ThemeToggler from '@/components/ThemeToggler'
@@ -14,6 +11,7 @@ import { motion } from 'framer-motion'
 import { usePathname } from 'next/navigation'
 import { FaChevronUp } from 'react-icons/fa'
 import { FaChevronDown } from 'react-icons/fa6'
+import cloudinaryLoader from '../../../../cloudinaryLoader'
 
 type Props = {
   component: Header
@@ -97,9 +95,10 @@ export default function Navbar(props: Props) {
             <motion.div variants={item}>
               <Image
                 alt='header-logo'
-                src={logo}
+                src={'/v1702450778/website-assets/images/logo/pznsgkzve08vmyl6nlfv.svg'}
                 width={52}
                 height={52}
+                loader={cloudinaryLoader}
               />
             </motion.div>
             <motion.div variants={item}>
@@ -108,16 +107,18 @@ export default function Navbar(props: Props) {
                 ?
                 <Image
                   alt='header-logo-black'
-                  src={logoTextBlack}
+                  src={'/v1702450777/website-assets/images/logo/itqm3epcxjl82cfdjh5b.png'}
                   width={120}
                   height={120}
+                  loader={cloudinaryLoader}
                 />
                 :
                 <Image
                   alt='header-logo-black-en'
-                  src={logoTextBlackEn}
+                  src={'/v1702450777/website-assets/images/logo/vn5l3n4zleul5iezreky.png'}
                   width={120}
                   height={120}
+                  loader={cloudinaryLoader}
                 />
               }
             </motion.div>

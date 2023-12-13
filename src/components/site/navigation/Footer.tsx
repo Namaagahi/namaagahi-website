@@ -2,8 +2,6 @@ import { Locale } from '@/config/i18n.config'
 import { getDictionary } from '@/lib/dictionary'
 import Image from 'next/image'
 import React from 'react'
-import examplePic from '../../../../public/images/footer/1.jpg'
-import logo from '../../../../public/images/logo/logo.svg'
 import { BsFacebook, BsFillTelephoneFill, BsInstagram, BsLinkedin } from 'react-icons/bs'
 import { IoMailOutline } from 'react-icons/io5'
 import Link from 'next/link'
@@ -31,8 +29,10 @@ export default async function Footer({ lang }: { lang: Locale }) {
         <div className="relative">
           <Image
             className="absolute rounded-full w-[170px] md:w-[400px] h-[170px] md:h-[400px] top-1/4 'right-1/3' transform translate-x-1/2 -translate-y-1/2 md:-translate-y-1/2 z-20"
-            src={examplePic}
+            src={'https://res.cloudinary.com/duydzrckb/image/upload/v1702450776/website-assets/images/footer/dzmfojozwp3duc1mvdk6.jpg'}
             alt="footer-image"
+            width={400}
+            height={400}
             priority
           />
           <div className="absolute rounded-full border-[30px] border-gray-500 border-opacity-30 w-[190px] md:w-[430px] h-[190px] md:h-[430px] top-1/4 'right-2/3' transform translate-x-1/2 -translate-y-1/2 z-10"></div>
@@ -75,7 +75,7 @@ export default async function Footer({ lang }: { lang: Locale }) {
           </div>
           <Image
             alt='footer-logo'
-            src={logo}
+            src={'https://res.cloudinary.com/duydzrckb/image/upload/v1702450778/website-assets/images/logo/pznsgkzve08vmyl6nlfv.svg'}
             width={48}
             height={48}
             className='animate-bounce'

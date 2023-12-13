@@ -31,7 +31,7 @@ export default function RootLayout(props: RootLayoutProps) {
             <Header lang={params.lang} />
             {children}
           </main>
-            <Footer lang={params.lang} />
+            {/* <Footer lang={params.lang} /> */}
         </Providers>
       </body>
     </html>

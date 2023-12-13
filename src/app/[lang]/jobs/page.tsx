@@ -13,7 +13,7 @@ export default async function Jobs(props: LanguageProp) {
   const { page } = await getDictionary(lang)
 
   return (
-    <section className='py-24'>
+    <section className='pb-24 pt-48'>
       <div className='container h-[100vh] flex flex-col items-center gap-9'>
         <p className='font-bold text-5xl'>
           {page.jobs.title}
