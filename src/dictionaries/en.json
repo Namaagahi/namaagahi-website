@@ -5,10 +5,10 @@
       "description": "Internationalization in NextJs 13 App router",
       "callActions" :{
         "callActionCards": [
-          {"id": 1, "iconName": "creativity", "color": "#4a4b69", "size": "50", "title": "Creativity", "src": "/creativity" },
-          {"id": 2, "iconName": "digital", "color": "#9f4d68", "size": "50", "title": "Digital Marketing", "src": "/digital-marketing" },
-          {"id": 3, "iconName": "media", "color": "#faa75c", "size": "50", "title": "Media", "src": "/media" },
-          {"id": 4, "iconName": "namava", "color": "#f9ca60", "size": "50", "title": "Namava", "src": "/namava" }
+          {"id": 1, "iconName": "creativity", "color": "#4a4b69", "size": "20", "title": "Creativity", "src": "/creativity" },
+          {"id": 2, "iconName": "digital", "color": "#9f4d68", "size": "20", "title": "Digital Marketing", "src": "/digital-marketing" },
+          {"id": 3, "iconName": "media", "color": "#faa75c", "size": "20", "title": "Media", "src": "/media" },
+          {"id": 4, "iconName": "namava", "color": "#f9ca60", "size": "20", "title": "Namava", "src": "/namava" }
         ]
       }, 
       "heroImage": [
@@ -73,9 +73,9 @@
       "description": "This is the media services page",
       "callActions" :{
         "callActionCards": [
-          {"id": 1, "iconName": "billboard", "color": "#fa9b45", "size": "50", "title": "Billboard", "src": "#billboard" },
-          {"id": 2, "iconName": "bus", "color": "#9f4d68", "size": "50", "title": "Bus", "src": "#bus" },
-          {"id": 3, "iconName": "subway", "color": "#fabd34", "size": "50", "title": "Subway", "src": "#subway" }
+          {"id": 1, "iconName": "billboard", "color": "#fa9b45", "size": "20", "title": "Billboard", "src": "#billboard" },
+          {"id": 2, "iconName": "bus", "color": "#9f4d68", "size": "20", "title": "Bus", "src": "#bus" },
+          {"id": 3, "iconName": "subway", "color": "#fabd34", "size": "20", "title": "Subway", "src": "#subway" }
         ]
       },
       "content": [
@@ -106,44 +106,65 @@
     },
 
     "creativity": {
+      "titles": [
+        {
+          "id": 1,
+          "title": "Creativity",
+          "svgColor": "#fabd34",
+          "text": ""
+        },
+        {
+          "id": 2,
+          "title": "Ideation",
+          "svgColor": "#fa9b45",
+          "text": "Not everything begins with creativity, but it becomes impactful with creativity. In today's world, numerous messages are constantly delivered to the audience every moment. Therefore, the key to effectiveness among these messages is to creatively differentiate advertisements to capture attention. In the realm of creativity, creative solutions for reaching the desired goal of attracting customers are discovered and presented. The aim is to ultimately create a message that is seen, effective, and remains memorable for the audience. \n To achieve this, after receiving a customer's order, the creativity team designs a creative strategy based on the target audience and creates a suitable concept. This concept is then translated into text or image using creative methods, forming a unified message that will be the core of a campaign, design, or advertisement. The characteristics of a suitable message are comprehensiveness, practicality, and effectiveness. This ensures that the advertising, by conveying the advertiser's message to the audience, is impactful and successful in raising awareness, introducing the brand, or increasing the effectiveness and success of product or service sales.\nIn the realm of advertising creativity, creativity managers, copywriters, graphic designers, and specialists in motion and animation strive to create the best ideas by correctly targeting their goals for the production of ready-made content."
+        }
+      ],
       "imageFrames": [
-        {"id": 1, "colSpan": 4, "height": 400, "title": "دیپوینت - پرستیژ یاس", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450777/website-assets/images/creative/sozul6fttw0rhi0v8ud8.jpg"},
-        {"id": 2, "colSpan": 4, "height": 400, "title": "دیپوینت - اکسپلور", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450774/website-assets/images/creative/pdweevly9sxsokncslmk.jpg"},
-        {"id": 3, "colSpan": 4, "height": 400, "title": "خوشگوار", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450774/website-assets/images/creative/nlrfyqpcbz6uzorurglq.jpg"},
-        {"id": 4, "colSpan": 4, "height": 400, "title": "دیپوینت - خانواده محصولات", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450774/website-assets/images/creative/iamvealeiohilhiehgxp.jpg"},
-        {"id": 5, "colSpan": 4, "height": 400, "title": "دیپوینت - دسنت و تی سون", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450774/website-assets/images/creative/nahlnqg5nn1fdhx2ssou.jpg"},
-        {"id": 6, "colSpan": 4, "height": 400, "title": "بیمه سامان", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450772/website-assets/images/creative/psildj1pluc2qdevryho.jpg"},
-        {"id": 7, "colSpan": 4, "height": 400, "title": "هی دی", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450772/website-assets/images/creative/cmyfpt0vkgnlegobpaki.jpg"},
-        {"id": 8, "colSpan": 4, "height": 400, "title": "آقای فرش", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450772/website-assets/images/creative/wfnc37ouypvik3abfsuc.jpg"},
-        {"id": 9, "colSpan": 4, "height": 400, "title": "2000", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450772/website-assets/images/creative/qaojhl2oau027gdi4aep.jpg"},
-        {"id": 10, "colSpan": 4, "height": 400, "title": "ویکولو", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450772/website-assets/images/creative/dqnqf4jgg7leo9nvsumg.jpg"},
-        {"id": 11, "colSpan": 4, "height": 400, "title": "دیپوینت - عرض زندگی", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450771/website-assets/images/creative/dra9ku8ehwnjbrjfl5tx.jpg"},
-        {"id": 12, "colSpan": 4, "height": 400, "title": "دامستوس", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450771/website-assets/images/creative/wyzdxfp1ixnincctecwq.jpg"},
-        {"id": 13, "colSpan": 4, "height": 400, "title": "سیف", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450771/website-assets/images/creative/fe7mtfgceebrtbcumiai.jpg"},
-        {"id": 14, "colSpan": 4, "height": 400, "title": "رکسونا", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450771/website-assets/images/creative/cwfasetniiziihjimiid.jpg"},
-        {"id": 15, "colSpan": 4, "height": 400, "title": "آمارانت", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450771/website-assets/images/creative/ylvbdqjoch0e70iqxtmw.jpg"},
-        {"id": 16, "colSpan": 4, "height": 400, "title": "بانک انصار", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450770/website-assets/images/creative/trjankvzim9q4uy03i8u.jpg"},
-        {"id": 17, "colSpan": 4, "height": 400, "title": "آسان پرداخت (آپ)", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450769/website-assets/images/creative/vxtepo64k120wwiwdshw.jpg"},
-        {"id": 18, "colSpan": 4, "height": 400, "title": "بچه های آسمان", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450768/website-assets/images/creative/yujswszkthx9ouec2fjk.jpg"},
-        {"id": 19, "colSpan": 4, "height": 400, "title": "یخچال بنس", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450768/website-assets/images/creative/fghww8ttgzk2bdw5oqxu.jpg"},
-        {"id": 20, "colSpan": 4, "height": 400, "title": "دیپوینت - دستتون بازه", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450768/website-assets/images/creative/dfywgfjeap3djrlsr6sb.jpg"},
-        {"id": 21, "colSpan": 4, "height": 400, "title": "اهدای خون", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450768/website-assets/images/creative/w7bl1xo0jppgcrxl5uha.jpg"},
-        {"id": 22, "colSpan": 4, "height": 400, "title": "دو برد - به بردن عادت کن", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450768/website-assets/images/creative/p6n93yr952726z53yawc.jpg"},
-        {"id": 23, "colSpan": 4, "height": 400, "title": "وان دی", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450767/website-assets/images/creative/fybihmjpnki1hpsukmtc.jpg"},
-        {"id": 24, "colSpan": 4, "height": 400, "title": "بنس - پولاریس", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450767/website-assets/images/creative/xw26hop8wj4vxemgk7qo.jpg"},
-        {"id": 25, "colSpan": 4, "height": 400, "title": "بیمیتو", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450767/website-assets/images/creative/xsouuti39xxo46sj2fyh.png"},
-        {"id": 26, "colSpan": 4, "height": 400, "title": "سمر", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450767/website-assets/images/creative/rontdzvwnpbrwtjx13pc.jpg"},
-        {"id": 27, "colSpan": 4, "height": 400, "title": "تکنولایو", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450766/website-assets/images/creative/z7n8ipw733xcl6jkgpon.png"},
-        {"id": 28, "colSpan": 4, "height": 400, "title": "مزمز - بامزه باش", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450766/website-assets/images/creative/jpdxh1dxybkhyxp9znkh.jpg"},
-        {"id": 29, "colSpan": 4, "height": 400, "title": "دیپوینت - تیزر نوری", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450766/website-assets/images/creative/embrfknycusfhyjivk9q.png"},
-        {"id": 30, "colSpan": 4, "height": 400, "title": "بانک ملت", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450765/website-assets/images/creative/heravz4lg6pharyg2zl3.png"},
-        {"id": 31, "colSpan": 4, "height": 400, "title": "باربیکن", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450764/website-assets/images/creative/dfkirh6vxxmarjploawl.jpg"},
-        {"id": 32, "colSpan": 4, "height": 400, "title": "کلییر", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450763/website-assets/images/creative/mzqfm5szuyiar5k9jkub.jpg"},
-        {"id": 33, "colSpan": 4, "height": 400, "title": "رکاب میده", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450763/website-assets/images/creative/w0aymd5iy4thp0henwm5.jpg"},
-        {"id": 34, "colSpan": 4, "height": 400, "title": "پگاه", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450762/website-assets/images/creative/k5nzb3sqhtzbr5wbhbt9.jpg"},
-        {"id": 35, "colSpan": 4, "height": 400, "title": "دیپوینت - ناک ناک", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450761/website-assets/images/creative/qe2lkw2kwvjbixk2moxc.jpg"},
-        {"id": 36, "colSpan": 4, "height": 400, "title": "بانک پارسیان", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450761/website-assets/images/creative/qhq13vhmy88rxylxpqti.jpg"}
-      ]
+        {"id": 1, "colSpan": 5, "height": 400, "title": "Depoint - Prestige Boss", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450777/website-assets/images/creative/sozul6fttw0rhi0v8ud8.jpg"},
+        {"id": 2, "colSpan": 2, "height": 400, "title": "Depoint - Explore", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450774/website-assets/images/creative/pdweevly9sxsokncslmk.jpg"},
+        {"id": 3, "colSpan": 5, "height": 400, "title": "Khoshgovar", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450774/website-assets/images/creative/nlrfyqpcbz6uzorurglq.jpg"},
+        {"id": 4, "colSpan": 3, "height": 400, "title": "Depoint - Decent & T7", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450774/website-assets/images/creative/nahlnqg5nn1fdhx2ssou.jpg"},
+        {"id": 5, "colSpan": 9, "height": 400, "title": "Depoint - Products Family", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450774/website-assets/images/creative/iamvealeiohilhiehgxp.jpg"},
+        {"id": 6, "colSpan": 8, "height": 400, "title": "Saman Insurance", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450772/website-assets/images/creative/psildj1pluc2qdevryho.jpg"},
+        {"id": 7, "colSpan": 2, "height": 400, "title": "Hey Day", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450772/website-assets/images/creative/cmyfpt0vkgnlegobpaki.jpg"},
+        {"id": 8, "colSpan": 2, "height": 400, "title": "Mr Carpet", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450772/website-assets/images/creative/wfnc37ouypvik3abfsuc.jpg"},
+        {"id": 9, "colSpan": 9, "height": 600, "title": "2000", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450772/website-assets/images/creative/qaojhl2oau027gdi4aep.jpg"},
+        {"id": 10, "colSpan": 3, "height": 600, "title": "Vicolo", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450772/website-assets/images/creative/dqnqf4jgg7leo9nvsumg.jpg"},
+        {"id": 11, "colSpan": 2, "height": 500, "title": "Depoint - Arze Zendegi", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450771/website-assets/images/creative/dra9ku8ehwnjbrjfl5tx.jpg"},
+        {"id": 12, "colSpan": 8, "height": 500, "title": "Damestos", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450771/website-assets/images/creative/wyzdxfp1ixnincctecwq.jpg"},
+        {"id": 13, "colSpan": 2, "height": 500, "title": "Sif", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450771/website-assets/images/creative/fe7mtfgceebrtbcumiai.jpg"},
+        {"id": 14, "colSpan": 5, "height": 400, "title": "Rexona", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450771/website-assets/images/creative/cwfasetniiziihjimiid.jpg"},
+        {"id": 15, "colSpan": 2, "height": 400, "title": "Amarant", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450771/website-assets/images/creative/ylvbdqjoch0e70iqxtmw.jpg"},
+        {"id": 16, "colSpan": 5, "height": 400, "title": "Ansar Bank", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450770/website-assets/images/creative/trjankvzim9q4uy03i8u.jpg"},
+        {"id": 17, "colSpan": 3, "height": 400, "title": "Up", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450769/website-assets/images/creative/vxtepo64k120wwiwdshw.jpg"},
+        {"id": 18, "colSpan": 9, "height": 400, "title": "Children of Heaven", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450768/website-assets/images/creative/yujswszkthx9ouec2fjk.jpg"},
+        {"id": 19, "colSpan": 8, "height": 400, "title": "Beness Fridge", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450768/website-assets/images/creative/fghww8ttgzk2bdw5oqxu.jpg"},
+        {"id": 20, "colSpan": 2, "height": 400, "title": "Depoint - Dastetoon Baze", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450768/website-assets/images/creative/dfywgfjeap3djrlsr6sb.jpg"},
+        {"id": 21, "colSpan": 2, "height": 400, "title": "Blood Donation", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450768/website-assets/images/creative/w7bl1xo0jppgcrxl5uha.jpg"},
+        {"id": 22, "colSpan": 9, "height": 400, "title": "Dobord", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450768/website-assets/images/creative/p6n93yr952726z53yawc.jpg"},
+        {"id": 23, "colSpan": 3, "height": 400, "title": "One Day", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450767/website-assets/images/creative/fybihmjpnki1hpsukmtc.jpg"},
+        {"id": 24, "colSpan": 2, "height": 400, "title": "Beness - Polaris", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450767/website-assets/images/creative/xw26hop8wj4vxemgk7qo.jpg"},
+        {"id": 25, "colSpan": 8, "height": 400, "title": "Bimito", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450767/website-assets/images/creative/xsouuti39xxo46sj2fyh.png"},
+        {"id": 26, "colSpan": 2, "height": 400, "title": "Samar Charity", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450767/website-assets/images/creative/rontdzvwnpbrwtjx13pc.jpg"},
+        {"id": 27, "colSpan": 5, "height": 400, "title": "Technolive", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450766/website-assets/images/creative/z7n8ipw733xcl6jkgpon.png"},
+        {"id": 28, "colSpan": 2, "height": 400, "title": "MazMaz - Be Funny!", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450766/website-assets/images/creative/jpdxh1dxybkhyxp9znkh.jpg"},
+        {"id": 29, "colSpan": 5, "height": 400, "title": "Depoint - Capture", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450766/website-assets/images/creative/embrfknycusfhyjivk9q.png"},
+        {"id": 30, "colSpan": 8, "height": 400, "title": "Mellat Bank", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450765/website-assets/images/creative/heravz4lg6pharyg2zl3.png"},
+        {"id": 31, "colSpan": 2, "height": 400, "title": "Barbican", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450764/website-assets/images/creative/dfkirh6vxxmarjploawl.jpg"},
+        {"id": 32, "colSpan": 2, "height": 400, "title": "Clear", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450763/website-assets/images/creative/mzqfm5szuyiar5k9jkub.jpg"},
+        {"id": 33, "colSpan": 9, "height": 400, "title": "Rekab Mide", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450763/website-assets/images/creative/w0aymd5iy4thp0henwm5.jpg"},
+        {"id": 34, "colSpan": 3, "height": 400, "title": "Pegah", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450762/website-assets/images/creative/k5nzb3sqhtzbr5wbhbt9.jpg"},
+        {"id": 35, "colSpan": 2, "height": 400, "title": "Depoint - Knock Knock", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450761/website-assets/images/creative/qe2lkw2kwvjbixk2moxc.jpg"},
+        {"id": 36, "colSpan": 5, "height": 400, "title": "Parsian Bank", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450761/website-assets/images/creative/qhq13vhmy88rxylxpqti.jpg"}
+      ],
+      "callActions" :{
+        "callActionCards": [
+          {"id": 1, "iconName": "newest", "color": "#fabd34", "size": "20", "title": "Newest", "src": "#newest" },
+          {"id": 2, "iconName": "awards", "color": "#fa9b45", "size": "20", "title": "Awards", "src": "#awards" },
+          {"id": 3, "iconName": "ideation", "color": "#9f4d68", "size": "20", "title": "Ideation", "src": "#ideation" }
+        ]
+      }
     }
   },
 
@@ -203,7 +224,7 @@
 
     "notice" :{
       "title": "Brief History of Nama Agahi",
-      "description": "Nema Advertising was founded in 2009 when it entered the market for media buying and planning. In 2012, it transformed into one of the most powerful media owners, and after three years, in 2015, it changed its nature to a full-service advertising agency.\n Over the course of more than 13 years of operation, Nema Advertising has always strived to offer the best solutions in all areas of the advertising industry to brand owners, relying on experienced teams.\n In 2018, Nema Advertising and an international advertising network called FCB ARTGROUP began their joint investment.\n Currently, the advertising agency 'Nema Advertising' is the exclusive executor of advertising in Namaava and the exclusive media owner for advertising on Tehran city buses, as well as the advertising executor for the Tehran Metro. In addition, Nema Advertising has the full capability to design and execute 360-degree advertising campaigns, create and produce TV commercials, communication strategies, and digital service solutions."
+      "description": "Nema Advertising was founded in 2009 when it entered the market for media buying and planning. In 2012, it transformed into one of the most powerful media owners, and after three years, in 2015, it changed its nature to a full-service advertising agency.\n Over the course of more than 13 years of operation, Nema Advertising has always strived to offer the best solutions in all areas of the advertising industry to brand owners, relying on experienced teams.\n In 2018, Nema Advertising and an international advertising network called FCB ARTGROUP began their joint investment.\\n Currently, the advertising agency 'Nema Advertising' is the exclusive executor of advertising in Namaava and the exclusive media owner for advertising on Tehran city buses, as well as the advertising executor for the Tehran Metro. In addition, Nema Advertising has the full capability to design and execute 360-degree advertising campaigns, create and produce TV commercials, communication strategies, and digital service solutions."
     },
 
     "timeline" :{

@@ -5,10 +5,10 @@
       "description": "چند زبانگی با نکست جی اس 13",
       "callActions" :{
         "callActionCards": [
-          {"id": 1, "iconName": "creativity", "color": "#4a4b69", "size": "50", "title": "خلاقیت", "src": "/creativity" },
-          {"id": 2, "iconName": "digital", "color": "#9f4d68", "size": "50", "title": "دیجیتال", "src": "/digital-marketing" },
-          {"id": 3, "iconName": "media", "color": "#faa75c", "size": "50", "title": "رسانه", "src": "/media" },
-          {"id": 4, "iconName": "namava", "color": "#f9ca60", "size": "50", "title": "نماوا", "src": "/namava" }
+          {"id": 1, "iconName": "creativity", "color": "#4a4b69", "size": "20", "title": "خلاقیت", "src": "/creativity" },
+          {"id": 2, "iconName": "digital", "color": "#9f4d68", "size": "20", "title": "دیجیتال", "src": "/digital-marketing" },
+          {"id": 3, "iconName": "media", "color": "#faa75c", "size": "20", "title": "رسانه", "src": "/media" },
+          {"id": 4, "iconName": "namava", "color": "#f9ca60", "size": "20", "title": "نماوا", "src": "/namava" }
         ]
       },
       "heroImage": [
@@ -73,9 +73,9 @@
       "description": "این صفحه خدمات رسانه ها است.",
       "callActions" :{
         "callActionCards": [
-          {"id": 1, "iconName": "billboard", "color": "#fa9b45", "size": "50", "title": "بیلبورد", "src": "#billboard" },
-          {"id": 2, "iconName": "bus", "color": "#9f4d68", "size": "50", "title": "اتوبوس", "src": "#bus" },
-          {"id": 3, "iconName": "subway", "color": "#fabd34", "size": "50", "title": "مترو", "src": "#subway" }
+          {"id": 1, "iconName": "billboard", "color": "#fa9b45", "size": "20", "title": "بیلبورد", "src": "#billboard" },
+          {"id": 2, "iconName": "bus", "color": "#9f4d68", "size": "20", "title": "اتوبوس", "src": "#bus" },
+          {"id": 3, "iconName": "subway", "color": "#fabd34", "size": "20", "title": "مترو", "src": "#subway" }
         ]
       },
       "content": [
@@ -106,6 +106,20 @@
     },
 
     "creativity": {
+      "titles": [
+        {
+          "id": 1,
+          "title": "خلافقیت", 
+          "svgColor": "#fabd34",
+          "text": ""
+        },
+        {
+          "id": 2,
+          "title": "ایده پردازی", 
+          "svgColor": "#fa9b45",
+          "text": "همه چیز با خلاقیت شروع نمی‌شود، اما با خلاقیت اثرگذار می‌شود. در دنیای امروز در هرلحظه پیام های متعددی به سمت مخاطبان روانه می شود، پس کلید اثرگذاری در بین این پیام ها، ایجاد تفاوتی خلاقانه برای جلب توجه به آگهی است. در بخش خلاقیت راه حل های خلاقانه برای رسیدن مشتری به هدف مورد نظر کشف و ارائه می‌شود تا در نهایت پیامی خلق شود که دیده شود، موثر باشد و در خاطر مخاطب ماندگار شود.\nبه این منظور پس از دریافت سفارش مشتری، تیم خلاقیت با توجه به مخاطب هدف یک استراتژی خلاقانه طراحی و براساس آن یک مفهوم مناسب خلق می‌کند. سپس این مفهوم با شیوه‌های خلاقانه به زبان متن یا تصویر ترجمه شده و یک پیام واحد ایجاد می‌کند که هسته ی اصلی یک کمپین، یک طرح یا یک آگهی خواهد بود. ویژگی یک پیام مناسب، جامع، کاربردی و اثرگذار بودن است تا در نهایت تبلیغات با رساندن پیام صاحب آگهی به مخاطب، بتواند در آگاهی بخشی، معرفی برند و یا افزایش فروش محصول یا خدمت اثرگذار و موفق باشد.\nدر بخش خلاقیت نماآگهی، مدیران خلاقیت، نویسندگان تبلیغات (کپی رایترها)، طراحان گرافیک و متخصصان ساخت موشن و انیمیشن در تلاش هستند تا با هدف گیری درست، بهترین ایده ها را خلق و برای تولید آماده نمایند."
+        }
+      ],
       "imageFrames": [
         {"id": 1, "colSpan": 5, "height": 400, "title": "دیپوینت - پرستیژ یاس", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450777/website-assets/images/creative/sozul6fttw0rhi0v8ud8.jpg"},
         {"id": 2, "colSpan": 2, "height": 400, "title": "دیپوینت - اکسپلور", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450774/website-assets/images/creative/pdweevly9sxsokncslmk.jpg"},
@@ -143,7 +157,14 @@
         {"id": 34, "colSpan": 3, "height": 400, "title": "پگاه", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450762/website-assets/images/creative/k5nzb3sqhtzbr5wbhbt9.jpg"},
         {"id": 35, "colSpan": 2, "height": 400, "title": "دیپوینت - ناک ناک", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450761/website-assets/images/creative/qe2lkw2kwvjbixk2moxc.jpg"},
         {"id": 36, "colSpan": 5, "height": 400, "title": "بانک پارسیان", "url": "https://res.cloudinary.com/duydzrckb/image/upload/v1702450761/website-assets/images/creative/qhq13vhmy88rxylxpqti.jpg"}
-      ]
+      ],
+      "callActions" :{
+        "callActionCards": [
+          {"id": 1, "iconName": "newest", "color": "#fabd34", "size": "20", "title": "جدیدترین ها", "src": "#newest" },
+          {"id": 2, "iconName": "awards", "color": "#fa9b45", "size": "20", "title": "جوایز", "src": "#awards" },
+          {"id": 3, "iconName": "ideation", "color": "#9f4d68", "size": "20", "title": "ایده پردازی", "src": "#ideation" }
+        ]
+      }
     }
   },
 
