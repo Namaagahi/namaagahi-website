@@ -54,7 +54,7 @@ export default function Navbar(props: Props) {
       animate: { opacity: 1, x: 0 },
       transition: {
         delay: 0.5 + delay / 10,
-      },
+      }, 
     }
   }
 
@@ -79,7 +79,7 @@ export default function Navbar(props: Props) {
   }
 
   return (
-    <div className='fixed left-0 top-0 w-full z-10 ease-in duration-300'>
+    <div className={`fixed left-0 top-0 w-full z-10 ease-in duration-300`}>
       <div
         className={`hidden sm:block absolute top-0 bg-white px-4 ${scrolling ? 'py-2' : 'py-5'} shadow-xl transition-all duration-500 z-[999]`}
         style={lang === 'en' ? { left: '-10px', borderBottomRightRadius: '30px' } : { right: '-10px', borderBottomLeftRadius: '30px' }}

@@ -13,7 +13,7 @@ export default async function Media(props: LanguageProp) {
   const { page } = await getDictionary(lang)
 
   return (
-    <div className='absolute top-0 right-0 w-full h-screen overflow-x-hidden'>
+    <div className='absolute top-0 right-0 w-full h-screen'>
       <Hero />
       <div className="relative">
         <CallToAction lang={lang} callActionsCards={page.media.callActions.callActionCards} />
@@ -38,3 +38,4 @@ export default async function Media(props: LanguageProp) {
     </div>
   )
 }
+ 

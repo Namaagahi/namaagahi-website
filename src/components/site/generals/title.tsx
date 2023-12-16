@@ -11,7 +11,7 @@ export default function Title(props: Props) {
     const { lang, text, svgColor, top } = props
 
     return (
-        <>
+        <div className='relative'>
             <svg 
                 className={`absolute ${lang === 'fa' ? 'right-0' : 'left-0'} top-${top} w-14 h-14 -z-1`}  
                 fill={svgColor}
@@ -23,6 +23,6 @@ export default function Title(props: Props) {
             <p className={`text-4xl font-bold z-10 absolute  ${lang === 'fa' ? 'right-4' : 'left-7'} top-${top + 2}`}>
                 { text }
             </p>
-        </>
+        </div>
     )
 }

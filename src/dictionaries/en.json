@@ -165,6 +165,42 @@
           {"id": 3, "iconName": "ideation", "color": "#9f4d68", "size": "20", "title": "Ideation", "src": "#ideation" }
         ]
       }
+    },
+
+    "digital-marketing": {
+      "titles": [
+        {
+          "id": 1,
+          "title": "Digital Marketing", 
+          "svgColor": "#fabd34",
+          "text": "The world is constantly changing, and adapting to new conditions is a prerequisite for survival and growth. Nowadays, using the internet and its various applications has become an inherent part of the collective mindset of human society, to the extent that imagining life without it is nearly impossible for the majority of people worldwide. People spend a significant amount of time on the internet in the digital and virtual space. According to research conducted in Iran, currently, the majority of audiences between the ages of 16 to 45 receive most of their information and news through various digital methods. These media, especially social networks, have become serious competitors for radio and television, with a very high penetration rate among audiences. The advantage for these media lies in the fact that the audience can enter this space at their own will, at any time and place they desire, allowing them to present their messages to the target audience under the best conditions.\nDigital media offer more freedom in idea generation, access to selected age groups, social levels, and, generally, the ability to differentiate target audiences and diversity in visual appeals, making them particularly popular among the younger generation.\nOne of the practical and important features of these media is their ability to gather information with very high accuracy. Unlike some advertising methods, they can provide comprehensive information about the audience and the audience's behavior when confronted with a specific advertisement. This information will be very insightful in understanding the audience and will be highly beneficial for the continued success of any brand."
+        },
+        {
+          "id": 2,
+          "title": "Story", 
+          "svgColor": "#fa9b45",
+          "text": ""
+        },
+        {
+          "id": 3,
+          "title": "Gallery", 
+          "svgColor": "#fa9b45",
+          "text": ""
+        },
+        {
+          "id": 4,
+          "title": "Video", 
+          "svgColor": "#fa9b45",
+          "text": ""
+        }
+      ],
+      "callActions" :{
+        "callActionCards": [
+          {"id": 1, "iconName": "story", "color": "#fabd34", "size": "20", "title": "Story", "src": "#story" },
+          {"id": 2, "iconName": "gallery", "color": "#fa9b45", "size": "20", "title": "Gallery", "src": "#gallery" },
+          {"id": 3, "iconName": "video", "color": "#9f4d68", "size": "20", "title": "Video", "src": "#video" }
+        ]
+      }
     }
   },
 
