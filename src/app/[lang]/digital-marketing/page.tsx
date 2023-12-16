@@ -18,15 +18,17 @@ export default async function About(props: LanguageProp) {
       <Hero />
       <div className='px-16'>
         <CallToAction lang={lang} callActionsCards={page['digital-marketing'].callActions.callActionCards} />
-          <Title
-            lang={lang}
-            text={page['digital-marketing'].titles[0].title}
-            svgColor={page['digital-marketing'].titles[0].svgColor}
-            top='30'
-          />
-          <p className='text-lg leading-[45px] text-justify my-24'>
-            {page['digital-marketing'].titles[0].text}
-          </p>
+          <div className='pt-12'>
+            <Title
+              lang={lang}
+              text={page['digital-marketing'].titles[0].title}
+              svgColor={page['digital-marketing'].titles[0].svgColor}
+              top='30'
+            />
+            <p className='text-lg leading-[45px] text-justify my-24'>
+              {page['digital-marketing'].titles[0].text}
+            </p>
+          </div>
           <div className="flex flex-col gap-16 relative">
             <Title
               lang={lang}

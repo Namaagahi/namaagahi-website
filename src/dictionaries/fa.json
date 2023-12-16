@@ -201,6 +201,18 @@
           {"id": 3, "iconName": "video", "color": "#9f4d68", "size": "20", "title": "ویدیو", "src": "#video" }
         ]
       }
+    },
+
+    "namava": {
+      "callActions" :{
+        "callActionCards": [
+          {"id": 1, "iconName": "pardis", "color": "#fabd34", "size": "20", "title": "پردیس نماوا", "src": "#pardis" },
+          {"id": 2, "iconName": "archive", "color": "#fa9b45", "size": "20", "title": "آرشیو", "src": "#archive" },
+          {"id": 3, "iconName": "15secs", "color": "#9f4d68", "size": "20", "title": "15 ثانیه", "src": "#15secs" },
+          {"id": 4, "iconName": "sighting", "color": "#555", "size": "20", "title": "جانمایی", "src": "#sighting" },
+          {"id": 5, "iconName": "sponsorship", "color": "#404167", "size": "20", "title": "اسپانسرینگ", "src": "#sponsorship" }
+        ]
+      }
     }
   },
 

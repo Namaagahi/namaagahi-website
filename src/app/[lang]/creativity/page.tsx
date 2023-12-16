@@ -17,9 +17,9 @@ export default async function Creativity(props: LanguageProp) {
     <section className='py-24'>
       <Video videoSrc="https://www.namaagahi.com/wp-content/uploads/2022/01/avc_Namaagahi-Rubik-Site-Bedune-PackShot-Bedune-Seda.mp4" />
       <div className='px-16 pt-[90vh] pb-24'>
-      <div className="relative">
-        <CallToAction lang={lang} callActionsCards={page.creativity.callActions.callActionCards} />
-      </div>
+        <div className="relative">
+          <CallToAction lang={lang} callActionsCards={page.creativity.callActions.callActionCards} />
+        </div>
         <div className='grid grid-cols-12 gap-7 justify-center mt-10 relative'>
           <div className='col-span-12 relative mb-10'>
             <Title 

@@ -201,6 +201,18 @@
           {"id": 3, "iconName": "video", "color": "#9f4d68", "size": "20", "title": "Video", "src": "#video" }
         ]
       }
+    },
+
+    "namava": {
+      "callActions" :{
+        "callActionCards": [
+          {"id": 1, "iconName": "pardis", "color": "#fabd34", "size": "20", "title": "Namava Pardis", "src": "#pardis" },
+          {"id": 2, "iconName": "archive", "color": "#fa9b45", "size": "20", "title": "Archive", "src": "#archive" },
+          {"id": 3, "iconName": "15secs", "color": "#9f4d68", "size": "20", "title": "15 Seconds", "src": "#15secs" },
+          {"id": 4, "iconName": "sighting", "color": "#555", "size": "20", "title": "Sighting", "src": "#sighting" },
+          {"id": 5, "iconName": "sponsorship", "color": "#404167", "size": "20", "title": "Sponsoring", "src": "#sponsorship" }
+        ]
+      }
     }
   },
 
