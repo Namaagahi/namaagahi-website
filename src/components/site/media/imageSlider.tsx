@@ -1,9 +1,9 @@
 'use client'
 
-import { nextSlide, prevSlide } from '@/utils/sliderUtils';
-import { motion } from 'framer-motion';
-import { useState } from "react";
-import { CgChevronDoubleRightO, CgChevronDoubleLeftO } from "react-icons/cg";
+import { nextSlide, prevSlide } from '@/utils/sliderUtils'
+import { motion } from 'framer-motion'
+import { useState } from "react"
+import { CgChevronDoubleRightO, CgChevronDoubleLeftO } from "react-icons/cg"
 
 export default function ImageSlider({ sliderImages }: { sliderImages: SliderImagesProp[] }) {
   const [currentSlide, setCurrentSlide] = useState<number>(0);

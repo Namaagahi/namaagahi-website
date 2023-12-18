@@ -3,8 +3,32 @@
 import { Form, Formik } from "formik"
 import FormControl from "./formControl"
 import { MdOutlineSendToMobile } from "react-icons/md"
+import * as Yup from 'yup'
 
-export default function FormContainer(props: any) {
+type Props = {
+  initialValues: JoinUsFormData
+  validationSchema: Yup.ObjectSchema<{
+        firstName: string;
+        lastName: string;
+        idCode: string;
+        phone: string;
+        email: string;
+        field: string;
+    }, Yup.AnyObject, {
+        firstName: undefined;
+        lastName: undefined;
+        idCode: undefined;
+        phone: undefined;
+        email: undefined;
+        field: undefined;
+    }, "">
+  onSubmit: (values: any) => void
+  controls: FormDataControls[]
+  submitText: string
+  radioOptions: FromRadioOptions
+}
+
+export default function FormContainer(props: Props) {
   const { initialValues, validationSchema, onSubmit, controls, submitText, radioOptions } = props
 
   return (
@@ -16,7 +40,7 @@ export default function FormContainer(props: any) {
       {formik => {
         return (
           <Form className="w-full grid grid-cols-2 gap-7">
-            {controls.map((item: any) => (
+            {controls.map((item) => (
               <FormControl
                 key={item.id}
                 control={item.control}

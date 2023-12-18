@@ -2,7 +2,7 @@ import Input from "./input"
 import RadioButton from "./radioButton"
 import Textarea from "./textarea"
 
-export default function FormControl(props: any) {
+export default function FormControl(props: FormControlProps) {
   const { control, col, radioOptions, ...rest } = props
 
   switch(control) {

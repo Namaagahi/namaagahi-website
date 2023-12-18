@@ -2,7 +2,7 @@ import { ErrorMessage, Field } from "formik"
 import FormTextError from "./formTextError"
 import React from "react"
 
-export default function RadioButton(props: any) {
+export default function RadioButton(props: FormControlProps) {
   const { label, name, options, ...rest } = props
 
   return (
@@ -13,7 +13,7 @@ export default function RadioButton(props: any) {
       <Field name={name} {...rest}>
         {({field}: any) => {
           return (
-            options.map((option: any) => (
+            options?.map((option: any) => (
               <div key={option.id} className='flex items-center gap-2'>
                 <input
                   type="radio"

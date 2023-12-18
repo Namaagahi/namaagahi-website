@@ -1,13 +1,14 @@
-export default function Video({videoSrc}: {videoSrc: string}) {
+type Props = {
+  videoSrc: string
+}
+
+export default function Video(props: Props) {
+  const { videoSrc } = props
+  
   return (
     <section
       className="absolute top-0 left-0 w-full flex items-center justify-center h-screen mb-12 overflow-hidden"
     >
-      {/* <div
-        className="relative z-30 p-5 text-2xl text-white bg-purple-300 bg-opacity-50 rounded-xl"
-      >
-        Welcome to my site!
-      </div> */}
       <video
         autoPlay
         loop

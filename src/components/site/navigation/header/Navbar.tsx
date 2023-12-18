@@ -99,6 +99,7 @@ export default function Navbar(props: Props) {
                 width={52}
                 height={52}
                 loader={cloudinaryLoader}
+                priority
               />
             </motion.div>
             <motion.div variants={item}>
@@ -111,6 +112,7 @@ export default function Navbar(props: Props) {
                   width={120}
                   height={120}
                   loader={cloudinaryLoader}
+                  priority
                 />
                 :
                 <Image
@@ -119,6 +121,7 @@ export default function Navbar(props: Props) {
                   width={120}
                   height={120}
                   loader={cloudinaryLoader}
+                  priority
                 />
               }
             </motion.div>
@@ -141,6 +144,7 @@ export default function Navbar(props: Props) {
               </li>
               :
               <li
+                key={headerLink.id}
                 className='py-4 px-2 xl:px-4 text-sm xl:text-base font-bold'
                 onClick={() => {
                   heading !== headerLink.title ? setHeading(headerLink.title) : setHeading("");
@@ -195,23 +199,23 @@ export default function Navbar(props: Props) {
                 headerLink.sublinks
                 ?
                 <li className='p-4 text-4xl hover:text-gray-500' onClick={handleIsMobile} key={headerLink.id}>
-                <motion.span {...framerText(index)} className='flex flex-col items-center gap-1'>
-                  {headerLink.title}
+                  <motion.span {...framerText(index)} className='flex flex-col items-center gap-1'>
+                    {headerLink.title}
 
-                  <ul className=' py-4 text-xl hover:text-gray-500 '>
-                  {headerLink.sublinks.map((sublink) => (
-                    heading !== headerLink.title &&
-                  <li className='px-2 xl:px-4 font-bold p-2' key={sublink.id}>
-                    <Link href={`/${lang}${sublink.src}`}>
-                      {sublink.title}
-                    </Link>
-                  </li>
-                  ))}
-                  </ul>
-                </motion.span>
+                    <ul className=' py-4 text-xl hover:text-gray-500 '>
+                    {headerLink.sublinks.map((sublink) => (
+                      heading !== headerLink.title &&
+                    <li className='px-2 xl:px-4 font-bold p-2' key={sublink.id}>
+                      <Link href={`/${lang}${sublink.src}`}>
+                        {sublink.title}
+                      </Link>
+                    </li>
+                    ))}
+                    </ul>
+                  </motion.span>
                 </li>
                 :
-                <li className='p-4 text-4xl hover:text-gray-500' onClick={handleIsMobile}>
+                <li className='p-4 text-4xl hover:text-gray-500' onClick={handleIsMobile} key={headerLink.id}>
                   <Link href={`/${lang}${headerLink.src}`}>
                       <motion.span {...framerText(index)}>
                         {headerLink.title}

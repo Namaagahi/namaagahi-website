@@ -74,3 +74,28 @@ interface SliderImagesProp {
   title?: string
   url?: string
 }
+
+interface FormControlProps {
+  key?: number
+  control?: string
+  type?: string
+  label?: string
+  name: string
+  col?: number
+  radioOptions?: FromRadioOptions
+  options?: any
+}
+
+interface FormDataControls {
+  id: number
+  control: string
+  type: string
+  label: string
+  name: string
+  col: number
+}
+
+interface FromRadioOptions {
+  id: number
+  value: string
+}

@@ -1,4 +1,5 @@
 'use client'
+
 import FormContainer from '@/components/mutual/forms/formContainer'
 import * as Yup from 'yup'
 
@@ -33,8 +34,8 @@ export default function JoinUsForm(props: any) {
       validationSchema={validationSchema}
       onSubmit={onSubmit}
       controls={data.controls}
-      radioOptions={data.radioOptions}
       submitText={data.submitText}
+      radioOptions={data.radioOptions}
     />
   )
 }

@@ -1,7 +1,7 @@
 import { ErrorMessage, Field } from "formik"
 import FormTextError from "./formTextError"
 
-export default function Textarea(props: any) {
+export default function Textarea(props: FormControlProps) {
   const { label, name, col, ...rest } = props
 
   return (

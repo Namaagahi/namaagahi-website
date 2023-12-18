@@ -1,5 +1,3 @@
-import { Locale } from '@/config/i18n.config'
-
 export default function Hero() {
   return (
     <div className='overflow-hidden'>
